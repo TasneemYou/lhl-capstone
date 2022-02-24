@@ -27,16 +27,16 @@ There are various categorical, numerical, and ordinal features present in the da
 
 ## Tasks
 
-# 1. Data Extraction: (Pandas)
+### 1. Data Extraction: (Pandas)
 My project goes through the stages of gathering the data for different years using pandas after which I preprocessed it for analysis.
 
-# 2. Data Cleaning: (Pandas, Numpy, Regex)
+### 2. Data Cleaning: (Pandas, Numpy, Regex)
 Since data was from real world, the data cleaning included a lot of work which was the major challenge I faced during this project. Here, I overcame this hurdle by the extensive use of regex for pattern matching to generalize all features.
 
-# 3. Modeling: (Pipelines, Sklearn, Grid Search)
+### 3. Modeling: (Pipelines, Sklearn, Grid Search)
 I applied different multi-class learners to the transformed data in the modeling step using various parameters.
 
-# 4. Cloud Deployment: (AWS EC2, Flask)
+### 4. Cloud Deployment: (AWS EC2, Flask)
 Finally, the project was deployed on cloud using the Amazon Web Services EC2 console and Flask.
 
 These steps were done in an iterative fashion where I went back and forth between data cleaning, transformation, and modeling.
