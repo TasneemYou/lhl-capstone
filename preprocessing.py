@@ -150,6 +150,10 @@ def preprocess(df):
     df.replace({'Top_Status':{'Loading Issue':'B','Low Oil Level':'B','Other':'B','Proactive Maintenance':'D',\
                          'External Fault':'C','Oil Leakage':'B','Aged Winding':'B','Maintenance Issues':'D',\
                          'Internal/TSW Fault':'B'}},inplace=True)
+    df.replace({'Tap_changer_status':{'A':1,'Not Available':0},\
+           'Oil_status':{'A':1,'B':2,'C':3,'D':4},\
+           'Silica_Gel_Status':{'Not Available':0,'A':1,'B':2,'C':3,'D':4},\
+           'Top_Status':{'A':1,'B':2,'C':3,'D':4}},inplace=True)
     to_drop=['WO_No', 'Date_of_Transformer_Receipt', 'Date_of_Transformer_Approved','Transformer_Number'\
          ,'FDF_ID.','Issuance_Date', 'DTS_ID','Fault_Location','RED_PHASE_LOADING', 'YELLOW_PHASE_LOADING', \
          'BLUE_PHASE_LOADING','Average_laoding_greater_than_max_flag','Rated_Power','Max._oil_level_(Ltr.)', 'Oil_Quantity']
