@@ -46,15 +46,13 @@ These steps were done in an iterative fashion where I went back and forth betwee
 Out of the several models I tried I am comparing my accuracy results with a baseline model which predicts the most frequent class of Loading Issue regardless of the input features. My analysis showed that the best performance was achieved by XGBoost with an accuracy percentage of 76.67%.
 
 With current accuracy, the XGBoost model for predicting a transformer’s fault can be used as the first step to find the possible cause of failure, which can then be confirmed (or rejected) by further diagnostics, for example, analysing the picture of transformer taken when its link blown out.
-
-![image](https://user-images.githubusercontent.com/34404363/155346105-b82efccb-be9a-4c7c-926f-620209d5a5a6.png)
+![image](https://user-images.githubusercontent.com/34404363/155473759-97e728f7-f74d-4f07-8a10-8529f6a4e665.png)
 
 ## Future Scope
 
 This kind of supervised learning can be applied to different electrical components deployed to supply, transfer, and use electric power.
 In my opinion, the accuracy achieved was very good compared to the baseline however in future neural network can be developed using the available features and images of faulty transformers and other components taken at the time of removal to achieve higher prediction accuracy, thus taking away the need for additional tests.
 
-![image](https://user-images.githubusercontent.com/34404363/155346533-2e4a528e-246c-44ae-974f-cef6e7b9e795.png)
 
 
 
