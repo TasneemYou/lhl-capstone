@@ -41,6 +41,8 @@ Finally, the project was deployed on cloud using the Amazon Web Services EC2 con
 
 These steps were done in an iterative fashion where I went back and forth between data cleaning, transformation, and modeling.
 
+![image](https://user-images.githubusercontent.com/34404363/155473951-1317d1de-3ca7-4de9-a92f-bab0952fa1ce.png)
+
 ## Results
 
 Out of the several models I tried I am comparing my accuracy results with a baseline model which predicts the most frequent class of Loading Issue regardless of the input features. My analysis showed that the best performance was achieved by XGBoost with an accuracy percentage of 76.67%.
